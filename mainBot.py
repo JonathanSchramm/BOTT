@@ -14,7 +14,7 @@ async def main():
         await bot.add_cog(Date(bot))
         await bot.add_cog(Binance(bot))
         await bot.add_cog(Valorant(bot))
-        await bot.start('MTA0NTEwNTgxODI3OTg3ODY4Ng.GYWpGb.R22iU-Pj9bUR9lVyBMVSW4W-sUrdDqjjAlt3nw')
+        await bot.start('TOKEN-BOT')
 
 @bot.event
 async def on_ready():
