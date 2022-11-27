@@ -7,7 +7,7 @@ class Valorant(commands.Cog):
     @commands.command(name='valorant')
     async def valorant(self, ctx):
 
-        key = requests.get('https://pd.{RGAPI-670ea104-73fa-4352-ac16-f5f00790e32f}.a.pvp.net/') ##("RGAPI-670ea104-73fa-4352-ac16-f5f00790e32f")
+        key = requests.get('https://pd.{KEY') ##("RGAPI-670ea104-73fa-4352-ac16-f5f00790e32f")
         client = valorant.Client(key, locale=None)
 
         lb = client.get_leaderboard()
